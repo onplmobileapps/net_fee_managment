@@ -50,8 +50,7 @@ class AdminDashboardScreen extends StatelessWidget {
             ),
           ],
         ),
-      ),
-      body: SingleChildScrollView(
+        body: SingleChildScrollView(
         padding: const EdgeInsets.all(16.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -533,7 +532,8 @@ class AdminDashboardScreen extends StatelessWidget {
           ],
         ),
       ),
-    );
+    ),
+  );
   }
 
   Widget _statusStatCard(
